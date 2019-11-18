@@ -57,5 +57,7 @@ public class TwoSum {
 		int[] nums = {-1, 0, 1, 2, -2, -4};
 		System.out.println(obj.findTwoSum(nums));
 		System.out.println(obj.findTwoSumWithHashmap(nums));
+		System.out.println(1.0/0.0);
+		System.out.println(1/0);
 	}
 }

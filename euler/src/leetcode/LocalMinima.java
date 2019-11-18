@@ -1,5 +1,4 @@
 package leetcode;
-import java.util.Arrays;
 
 public class LocalMinima {
 	
@@ -33,7 +32,7 @@ public class LocalMinima {
 			if( mid == 0 || (numArr[mid] < numArr[mid + 1]) && (numArr[mid] < numArr[mid - 1 ])) {
 				return numArr[mid];
 			}
-			else if ( numArr[mid] >= numArr[mid - 1] ) {
+			else if (numArr[mid] >= numArr[mid - 1]){
 				high = mid - 1;
 			}
 			else {
@@ -42,5 +41,4 @@ public class LocalMinima {
 		}
 		return numArr[low];
 	}
-	
 }
